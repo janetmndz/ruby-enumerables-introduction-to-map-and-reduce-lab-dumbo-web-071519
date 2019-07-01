@@ -10,15 +10,33 @@ def map_to_negativize(arr)
 end
 
 def map_to_no_change(arr)
-  arr
+  newarr = []
+  n = 0
+  while n < arr.length do
+    newarr.push(arr[n])
+    n += 1
+  end
+  newarr
 end
 
 def map_to_double(arr)
-  arr.map {|n| n * 2}
+  newarr = []
+  n = 0
+  while n < arr.length do
+    newarr.push(arr[n] * 2)
+    n += 1
+  end
+  newarr
 end
 
 def map_to_square(arr)
-  arr.map {|n| n ** 2}
+  newarr = []
+  n = 0
+  while n < arr.length do
+    newarr.push(arr[n] ** 2)
+    n += 1
+  end
+  newarr
 end
 
 def reduce_to_total(arr, start = 0)
