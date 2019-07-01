@@ -1,6 +1,7 @@
 # My Code here....
 def map_to_negativize(arr)
-  arr.map {|n| n * -1}
+  newarr = []
+  while n arr.length
 end
 
 def map_to_no_change(arr)
