@@ -51,11 +51,14 @@ end
 
 def reduce_to_all_true(arr)
   n = 0
+  result = true
   while n < arr.length do
-    total += arr[n]
+    if !!arr[n] !== true
+      result = false
+    end
     n += 1
   end
-  total
+  result
 end
 
 
