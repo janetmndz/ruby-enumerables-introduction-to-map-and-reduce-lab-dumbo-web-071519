@@ -73,7 +73,7 @@ def reduce_to_all_true(arr)
   result
 end
 
-def reduce_to_all_true(arr)
+def reduce_to_any_true(arr)
   n = 0
   result = false
   while n < arr.length do
