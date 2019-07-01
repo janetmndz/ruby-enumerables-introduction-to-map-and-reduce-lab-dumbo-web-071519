@@ -49,3 +49,14 @@ def reduce_to_total(arr, start = 0)
   total
 end
 
+def reduce_to_all_true(arr)
+  n = 0
+  while n < arr.length do
+    total += arr[n]
+    n += 1
+  end
+  total
+end
+
+
+
