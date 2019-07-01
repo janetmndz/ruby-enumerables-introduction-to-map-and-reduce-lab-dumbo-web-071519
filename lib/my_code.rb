@@ -40,5 +40,11 @@ def map_to_square(arr)
 end
 
 def reduce_to_total(arr, start = 0)
-  arr.reduce(start) {|total, num| total + num}
+  newarr = []
+  n = 0
+  while n < arr.length do
+    newarr.push(arr[n] * -1)
+    n += 1
+  end
+  newarr
 end
